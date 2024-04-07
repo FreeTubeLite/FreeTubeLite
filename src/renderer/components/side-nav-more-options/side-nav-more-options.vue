@@ -10,11 +10,6 @@
       @keydown.space.prevent="openMoreOptions = !openMoreOptions"
       @keydown.enter.prevent="openMoreOptions = !openMoreOptions"
     >
-      <font-awesome-icon
-        :icon="['fas', 'ellipsis-h']"
-        class="navIcon"
-        :class="applyNavIconExpand"
-      />
       <p
         v-if="!hideLabelsSideBar"
         id="moreNavLabel"
@@ -36,12 +31,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'list']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideLabelsSideBar"
@@ -58,11 +47,6 @@
         :aria-label="hideLabelsSideBar ? $t('Trending.Trending') : null"
         to="/trending"
       >
-        <font-awesome-icon
-          :icon="['fas', 'fire']"
-          class="navIcon"
-          :class="applyNavIconExpand"
-        />
         <p
           v-if="!hideLabelsSideBar"
           id="trendingNavLabel"
@@ -78,11 +62,6 @@
         :aria-label="hideLabelsSideBar ? $t('Most Popular') : null"
         to="/popular"
       >
-        <font-awesome-icon
-          :icon="['fas', 'users']"
-          class="navIcon"
-          :class="applyNavIconExpand"
-        />
         <p
           v-if="!hideLabelsSideBar"
           id="mostPopularNavLabel"
@@ -97,11 +76,6 @@
         :aria-label="hideLabelsSideBar ? $t('About.About') : null"
         to="/about"
       >
-        <font-awesome-icon
-          :icon="['fas', 'info-circle']"
-          class="navIcon"
-          :class="applyNavIconExpand"
-        />
         <p
           v-if="!hideLabelsSideBar"
           id="aboutNavLabel"
@@ -117,11 +91,6 @@
       :aria-label="hideLabelsSideBar ? $t('History.History'): null"
       to="/history"
     >
-      <font-awesome-icon
-        :icon="['fas', 'history']"
-        class="navIcon"
-        :class="applyNavIconExpand"
-      />
       <p
         id="historyNavLabel"
         class="navLabel"
@@ -136,11 +105,6 @@
       :aria-label="hideLabelsSideBar ? $t('Settings.Settings') : null"
       to="/settings"
     >
-      <font-awesome-icon
-        :icon="['fas', 'sliders-h']"
-        class="navIcon"
-        :class="applyNavIconExpand"
-      />
       <p
         id="settingsNavLabel"
         class="navLabel"
@@ -154,11 +118,6 @@
       to="/about"
       :aria-label="hideLabelsSideBar ? $t('About.About') : null"
     >
-      <font-awesome-icon
-        :icon="['fas', 'info-circle']"
-        class="navIcon"
-        :class="applyNavIconExpand"
-      />
       <p
         v-if="!hideLabelsSideBar"
         class="navLabel"

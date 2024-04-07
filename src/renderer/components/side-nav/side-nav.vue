@@ -18,12 +18,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'rss']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -41,12 +35,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'list']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -65,12 +53,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'fire']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -89,12 +71,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'users']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -113,12 +89,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'bookmark']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -137,12 +107,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'history']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -161,12 +125,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'sliders-h']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"
@@ -184,12 +142,6 @@
         <div
           class="thumbnailContainer"
         >
-          <font-awesome-icon
-            :icon="['fas', 'info-circle']"
-            class="navIcon"
-            :class="applyNavIconExpand"
-            fixed-width
-          />
         </div>
         <p
           v-if="!hideText"

@@ -22,7 +22,7 @@
         @keydown.enter.prevent="nextPage"
         @keydown.space.prevent="nextPage"
       >
-        <font-awesome-icon :icon="['fas', 'search']" /> {{ $t("Search Filters.Fetch more results") }}
+        {{ $t("Search Filters.Fetch more results") }}
       </div>
     </ft-card>
   </div>
